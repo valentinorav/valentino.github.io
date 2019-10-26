@@ -1,0 +1,174 @@
+/*Start body*/
+body {
+    color: royalblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/*End body*/
+
+/* Start Debug*/
+.bg-blue{
+    background-color:blueviolet;
+}
+.bg-red{
+    background-color: red;
+}
+/* End Debug*/
+
+/*Start Container */
+.container{
+    margin: 10px auto;
+    overflow: auto;
+    width: 90%;
+}
+.container-full {
+    margin: 10px auto;
+    overflow: auto;
+    width: 100%;
+}
+
+/*End Conteiner */
+
+/* Start Logo*/
+.logo{
+    text-align:center;
+}
+/* End Logo*/
+
+/*start Anchor/Link*/
+a:link,
+a:visited{
+    color :blue;
+    text-decoration: none;
+}
+a:hover,
+a:active{
+    color : black;
+    text-decoration: underline;
+
+}
+/*End Anchor/Link*/
+/*Start Menu*/
+
+.menu-primer ul{
+    background-color: bisque; 
+    border-radius: 10px;
+    text-align: center;
+    /*box-shadow: 
+    9px 9px 13px -2px rgba(11,41,102,1),
+    9px 9px 13px -2px rgba(11,41,102,1),
+    9px 9px 13px -2px rgba(11,41,102,1);*/
+   }
+   .menu-primer li{
+       border-right: 1px solid blueviolet ;
+       display: inline-block;
+       margin: 0 -2px;
+    }
+.menu-primer a{
+    color: black;
+    font-size: 12px;
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+} 
+.menu-primer a:hover{
+    background-color: rgb(46, 36, 187);
+    color: white;
+    text-decoration:none; 
+}
+.menu-primer .active{
+    background-color: brown;
+    color: violet;
+    text-decoration: none;
+}
+/*End Menu*/
+
+/* Start Heading*/
+h1,h2,h3,h4,h5,h6{
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+h1 {
+    font-size: 28px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 12px;
+}
+/* End Heading*/
+
+/*Start Jumbroton*/
+.jumbroton{
+    background-color: rgb(124, 13, 22);
+    border :1px solid blanchedalmond;
+    border-radius: 4px;
+    padding: 20px 0; 
+}
+.jumbroton h1{
+    font-size: 32px;
+    padding: 0 20px;
+}
+.jumbroton h3{
+    font-size: 20px;
+    padding: 0 20px;
+}
+/*End Jumbroton*/
+
+/* Start Main */
+.main-home-one{
+    float: left;
+    width: 49%;
+}
+
+.main-home-two{
+    float: right;
+    width : 49%;
+}
+.main-home-one .box-isi,
+.main-home-two .box-isi{
+    height: 140px;
+}
+
+/* End Main */
+
+/*Start Box*/
+.box-heading{
+    background-color: whitesmoke;
+    border: 1px solid grey;
+    border-radius: 3px 3px 0 0;
+    margin:0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+.box-heading h4{
+    font-size :14px;
+    margin: 0;
+}
+.box-isi{
+    background-color: white;
+    border: 1px solid #eaeacf;
+    border-top: 0;
+    margin:0;
+    padding: 10px 20px;
+    
+}
+/*End Box*/
+
+/*Start Menu sekunder*/
+
+/*Start Menu sekunder*/
